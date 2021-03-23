@@ -33,7 +33,6 @@
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^1.5.4",
     "jshint": "^2.10.2",
-    "node-sass": "^5.0.0",
     "pa11y-ci": "^2.4.0"
   },
   "dependencies": {
