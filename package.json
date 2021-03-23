@@ -15,7 +15,11 @@
   "bugs": {
     "url": "https://github.com/w3c/wai-wcag-quickref/issues"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "start-detached": "bundle exec jekyll serve --detach",
+    "pa11y-ci:home": "pa11y-ci http://localhost:4099/wai-wcag-quickref/"
+  },
   "engines": {},
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -25,10 +29,12 @@
     "gulp-jshint": "^2.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-pxtorem": "^1.0.1",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^1.5.4",
-    "jshint": "^2.10.2"
+    "jshint": "^2.10.2",
+    "node-sass": "^5.0.0",
+    "pa11y-ci": "^2.4.0"
   },
   "dependencies": {
     "netlify-cli": "^2.15.0"
